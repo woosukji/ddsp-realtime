@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/assets/logo.png" alt="DDSP Realtime logo" width="420" />
+</p>
+
 # DDSP Realtime
 
 **Lightweight, real-time DDSP (Differentiable Digital Signal Processing) synthesis library for on-device neural audio generation.**
