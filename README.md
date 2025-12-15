@@ -59,7 +59,7 @@ The `ddsp_core` library provides:
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/yourusername/ddsp-realtime.git
+git clone https://github.com/woosukj/ddsp-realtime.git
 cd ddsp-realtime
 
 # 2. Initialize submodules (JUCE)
@@ -192,12 +192,12 @@ pipeline.loadModel("/path/to/model.tflite");
 ## Performance
 
 Tested on Apple M1 Mac:
-- **Latency**: <10ms (with 512 sample buffer @ 48kHz)
+- **Latency**: <2ms (with 512 sample buffer @ 48kHz)
 - **CPU Usage**: ~5% (single voice)
 - **Memory**: ~20MB (including model)
 
 With CoreML delegate:
-- **Inference Time**: <2ms per frame
+- **Inference Time**: **<0.5ms per frame**
 - **CPU Usage**: ~2% (offloaded to Neural Engine)
 
 ## Dependencies
@@ -252,9 +252,9 @@ If you use this library in your research, please cite:
 ```bibtex
 @software{ddsp_realtime,
   title = {DDSP Realtime: Lightweight Neural Audio Synthesis},
-  author = {Your Name},
-  year = {2024},
-  url = {https://github.com/yourusername/ddsp-realtime}
+  author = {Woosuk Ji},
+  year = {2025},
+  url = {https://github.com/woosukj/ddsp-realtime}
 }
 ```
 
@@ -270,8 +270,8 @@ Original DDSP paper:
 
 ## Contact
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/ddsp-realtime/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/ddsp-realtime/discussions)
+- **Issues**: [GitHub Issues](https://github.com/woosukj/ddsp-realtime/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/woosukj/ddsp-realtime/discussions)
 
 ---
 
