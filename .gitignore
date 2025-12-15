@@ -1,0 +1,62 @@
+# Build artifacts
+build/
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.pyd
+*.bundle
+*.framework
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+.pytest_cache/
+venv/
+env/
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+DerivedData/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+build-*/
+
+# Temporary files
+*.log
+*.tmp
+.cache/
+
+# Third-party (managed separately)
+third_party/juce/
+third_party/tflite/lib/
+
+# Examples output
+examples/*/build/
+examples/*/lib/*.so
+examples/*/lib/*.pyd
+examples/python-server/output/
